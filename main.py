@@ -10,6 +10,7 @@ app = FastAPI(
     description= "A python API to interact with Google Sheets",
     version = "1.0",
     #docs_url="/",
+    docs_url="/",
     openapi_tags=[
         {
             "name":"authentication",
